@@ -147,14 +147,14 @@ function getScrollDirection(currentScroll) {
 
 
 /**
- * Determines whether the active section has seen in its whole or not.
+ * Determines whether the active section has seen in it`s whole or not.
  */
-function isCompletelyInViewPort(movement) {
-    var top = getState().activeSection.item.offsetTop;
-    var bottom = top + utils.getWindowHeight();
-
-    if (movement == 'up') {
-        return bottom >= (utils.getScrollTop() + utils.getWindowHeight());
-    }
-    return top <= utils.getScrollTop();
-}
+// function isCompletelyInViewPort(movement) {
+//     var top = getState().activeSection.item.offsetTop;
+//     var bottom = top + utils.getWindowHeight();
+//
+//     if (movement == 'up') {
+//         return bottom >= (utils.getScrollTop() + utils.getWindowHeight());
+//     }
+//     return top <= utils.getScrollTop();
+// }
