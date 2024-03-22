@@ -6,15 +6,22 @@ html,
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
-header{
+body {
+}
+
+header {
     /* width: 100%;
     height: 200px; */
 }
 
-footer{
+main {
+    overflow: hidden;
+}
+
+
+footer {
     width: 100%;
     height: 200px;
     background-color: black;
